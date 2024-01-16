@@ -36,15 +36,6 @@ def models(value_picked):
     return model_dict
     
     
-def import_model(selected_model):
-    
-    if selected_model == 'RandomForest Regressor':
-        model = joblib.load('randomforestregressor_model_1.joblib') 
-    if selected_model == 'Gradient Boosting Regressor':
-        model = joblib.load('gradientboostingregressor_model_2.joblib') 
-        
-    return model
-    
 def predict_function(input_data,model):
     
     prediction = model.predict(input_data)

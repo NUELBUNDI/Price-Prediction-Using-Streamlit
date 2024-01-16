@@ -78,12 +78,13 @@ with st.form("my_form", clear_on_submit=True):
         # Get the Model
         # model = import_model(options)
         rows7 = st.columns([2,2])
-        rows7[0].markdown("#### :rainbow[Random Forest Regressor Prediction]")
+        rows7[0].markdown("#### :rainbow[Decision Tree Regressor Prediction]")
         rows7[1].markdown("#### :rainbow[Gradient Boosting Regressor Prediction]")
         
         
         
         rows6 = st.columns([2,2])
+        
         
     
         # Model 1
